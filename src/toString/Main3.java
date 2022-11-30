@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Main3 extends JPanel{
+    Sheep s;
     public Main3(){
         Sheep s = new Sheep(10,20);
         System.out.println(s);
