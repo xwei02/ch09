@@ -1,5 +1,5 @@
 package Interface;
 
 public interface Edible {
-    String youMayEat();
+    void youMayEat();
 }

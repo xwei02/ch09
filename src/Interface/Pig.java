@@ -1,8 +1,6 @@
 package Interface;
 
-import AbstractClass.Animal;
-
-public class Pig extends Animal implements Edible {
+public class Pig extends Animal1 implements Edible {
     public Pig() {
         super("Pig");
     }
@@ -12,7 +10,8 @@ public class Pig extends Animal implements Edible {
         System.out.println("Oink!");
     }
 
-    public String youMayEat() {
+    public void youMayEat() {
         System.out.println("You may eat pork chops.");
     }
+
 }
