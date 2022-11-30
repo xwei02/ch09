@@ -1,20 +1,14 @@
 package Interface;
 
-import AbstractClass.Animal;
-import AbstractClass.Cat;
-import AbstractClass.Dog;
-
 public class Main2 {
     public static void main(String[] args) {
-        Animal dog1 = new Dog();
-        Dog dog2 = new Dog();
-        Animal cat1 = new Cat();
-        Cat cat2 = new Cat();
+       Edible food = new Pig();
+       System.out.println(food.youMayEat());
 
-        dog1.makeSound();
-        cat1.makeSound();
-        dog2.makeSound();
-        cat2.sleep();
+       Edible food2 = new Tomato("tomato");
+       System.out.println(food2.youMayEat());
+
+
 
     }
 

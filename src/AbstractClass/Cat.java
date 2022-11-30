@@ -2,6 +2,7 @@ package AbstractClass;
 
 public class Cat extends Animal {
     public Cat(){
+
         super("Cat");
     }
     @Override

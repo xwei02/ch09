@@ -10,8 +10,7 @@ public class Pig extends Animal1 implements Edible {
         System.out.println("Oink!");
     }
 
-    public void youMayEat() {
-        System.out.println("You may eat pork chops.");
+    public String youMayEat() {
+        return "You may eat pork chops.";
     }
-
 }
